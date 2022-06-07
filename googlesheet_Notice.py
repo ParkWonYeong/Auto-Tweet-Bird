@@ -14,11 +14,11 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(json_file_name, s
 gc = gspread.authorize(credentials)
 
 #문서 url 적기
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1VP17jFrWrKkYYW-BrfETEROSUe0uAN514LrVVUWpsLc/edit#gid=0'
+spreadsheet_url = 'https://docs.google.com/spreadsheets/your_spreadsheed_url'
 
 # 스프레드시트 문서 가져오기 
 doc = gc.open_by_url(spreadsheet_url)
 
 # 시트 선택하기
-worksheet = doc.worksheet('공지')
+worksheet = doc.worksheet('Notice(TabName)')
 

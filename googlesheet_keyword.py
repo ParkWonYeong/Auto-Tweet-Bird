@@ -1,8 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-#합발 시트
-
+#랜덤 키워드 시트
 scope = [
 'https://spreadsheets.google.com/feeds',
 'https://www.googleapis.com/auth/drive',
@@ -22,5 +21,5 @@ spreadsheet_url = 'https://docs.google.com/spreadsheets/your_spreadsheed_url'
 doc = gc.open_by_url(spreadsheet_url)
 
 # 시트 선택하기
-worksheet = doc.worksheet('Tweet(TabName)')
+worksheet = doc.worksheet('KeyWord(TabName)')
 
