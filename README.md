@@ -72,7 +72,6 @@ I used the jupiter notebook environment to implement the response.
   - It is auto_bot function about Random Response.
   - The Answers are saved on the Google sheet.
   - Skip if the keyword is not in the answer.
-  
   ```
 def job():
     ## call particular sheet ##
@@ -81,7 +80,6 @@ def job():
     api.update_status(cell_data)
 
 schedule.every().day.at("18:19").do(job) #time
-              
   ```
   
 
