@@ -73,15 +73,15 @@ I used the jupiter notebook environment to implement the response.
   - The Answers are saved on the Google sheet.
   - Skip if the keyword is not in the answer.
 
-```
-def job():
-    ## call particular sheet ##
-    cell_data = worksheet.acell('C3').value # select Excel sheet Written Tweet
-    print(cell_data)
-    api.update_status(cell_data)
+  ```
+  def job():
+      ## call particular sheet ##
+      cell_data = worksheet.acell('C3').value # select Excel sheet Written Tweet
+      print(cell_data)
+      api.update_status(cell_data)
 
-schedule.every().day.at("18:19").do(job) #time
-```
+  schedule.every().day.at("18:19").do(job) #time
+  ```
   
 
 ## Conclusion
