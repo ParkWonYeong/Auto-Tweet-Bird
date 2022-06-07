@@ -7,9 +7,6 @@ I used the jupiter notebook environment to implement the response.
 
 ## Goals
 
-* The goal of implementing the app "Food Cal"
-  - Provides appropriate answers to users who tag the account and attempt to chat with keywords.
-
 * The function that was planned to be implemented.
   - **Random Response**
     + The server is up and running, so it provides a 24-hour response.
