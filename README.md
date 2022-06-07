@@ -85,18 +85,6 @@ I used the jupiter notebook environment to implement the response.
               time.sleep(1)
               
   ```
-
-  ```
-          play_Btn.setOnClickListener{
-              if(play_Btn.isChecked == true){
-                  play_Btn.setBackgroundResource(R.drawable.music)
-                  startService(intent)
-              } else{
-                  play_Btn.setBackgroundResource(R.drawable.pause)
-                  stopService(intent)
-              }
-          }
-  ```
   
 
 ## Conclusion
